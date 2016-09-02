@@ -22,11 +22,11 @@ Designed by Shina Charles Memud
 Respmail v1.2 (http://charlesmudy.com/respmail/)
 
 ** Quick modification **
-We are using width of 600 for the whole content,
-you can change it any size you want (e.g. 600).
+We are using width of 700 for the whole content,
+you can change it any size you want (e.g. 700).
 The fastest and safest way is to use find & replace
 Sizes: [
-		wrapper   : '600',
+		wrapper   : '700',
 		columns   : '210',
 		x-columns : [
 						left : '90',
@@ -48,7 +48,7 @@ Sizes: [
 			html { background-color: rgb(53, 60, 72); margin:0; padding:0; background-image: url("http://www.umi-cms.ru/images/cms/data/pattern_bg.png"); }
 			body, #bodyTable, #bodyCell, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;font-family:Helvetica, Arial, "Lucida Grande", sans-serif;}
 			table{border-collapse:collapse;}
-			table[id=bodyTable] {width:100%!important;margin:auto;max-width:600px!important;color:#7A7A7A;font-weight:normal;}
+			table[id=bodyTable] {width:100%!important;margin:auto;max-width:700px!important;color:#7A7A7A;font-weight:normal;}
 			img, a img{border:0; outline:none; text-decoration:none;height:auto; line-height:100%;}
 			a {text-decoration:none !important;border-bottom: 1px solid;}
 			h1, h2, h3, h4, h5, h6{color:#5F5F5F; font-weight:normal; font-family:Helvetica; font-size:20px; line-height:125%; text-align:Left; letter-spacing:normal;margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;}
@@ -218,7 +218,7 @@ Sizes: [
 							Its width can be set to 100% for a color band
 							that spans the width of the page.
 						-->
-						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="600" id="emailHeader">
+						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="700" id="emailHeader">
 
 							<!-- HEADER ROW // -->
 							<tr>
@@ -228,42 +228,28 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="10" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="10" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
+														<td valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
 																<tr>
-																	
-																		The "invisibleIntroduction" is the text used for short preview
-																		of the email before the user opens it (50 characters max). Sometimes,
-																		you do not want to show this message depending on your design but this
-																		text is highly recommended.
-
-																		You do not have to worry if it is hidden, the next <td> will automatically
-																		center and apply to the width 100% and also shrink to 50% if the first <td>
-																		is visible.
-																	
-																	<td align="left" valign="middle" id="invisibleIntroduction" class="flexibleContainerBox" style="display:none !important; mso-hide:all;">
-																		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100%;">
+																	<td align="left" valign="top" class="flexibleContainerBox">
+																		<table border="0" cellpadding="0" cellspacing="0" width="150" style="max-width: 100%;">
 																			<tr>
 																				<td align="left" class="textContent">
-																					<div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-																						test test test test test test test test test test test test test test test test test test test test
-																					</div>
+																					<img alt="some image" class="w90" height="auto" src="http://market.umi-cms.ru/images/cms/seo_thumbs/gotovyj_sajt_gosudarstvennogo_uchrezhdeniya/umigov/gotovyj-sajt-gosudarstvennogo-uchrezhdeniya.png" style="width: 150px; height: auto" width="100%" alt="some image"/>
 																				</td>
 																			</tr>
 																		</table>
 																	</td>
 																	<td align="right" valign="middle" class="flexibleContainerBox">
-																		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100%;">
+																		<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0" width="400" style="max-width: 100%;">
 																			<tr>
 																				<td align="left" class="textContent">
-																					<!-- CONTENT // -->
-																					<div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-																						If you can't see this message, <a href="#" target="_blank" style="text-decoration:none;border-bottom:1px solid #828282;color:#828282;"><span style="color:#828282;">view&nbsp;it&nbsp;in&nbsp;your&nbsp;browser</span></a>.
-																					</div>
+																					<h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Бесплатный мастер-класс «SMM-фишки больших брендов, которые подойдут малому бизнесу»</h3>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">А ваш SMM решает задачи бизнеса? Или вы до сих пор не понимаете, зачем вам группа ВК и профиль в Instagram? Школа IMpro и бизнес-инкубатор «Ингрия» проведут уникальный мастер-класс Елизаветы Проскуриной по SMM. Только работающие «фишки», только практические знания, только хардкор!</div>
 																				</td>
 																			</tr>
 																		</table>
@@ -291,7 +277,7 @@ Sizes: [
 							Its width can be set to 100% for a color band
 							that spans the width of the page.
 						-->
-						<table bgcolor="#FFFFFF"  border="0" cellpadding="0" cellspacing="0" width="600" id="emailBody">
+						<table bgcolor="#FFFFFF"  border="0" cellpadding="0" cellspacing="0" width="700" id="emailBody">
 
 							<!-- MODULE ROW // -->
 							<!--
@@ -317,9 +303,9 @@ Sizes: [
 													Most content tables within can then be
 													given 100% widths.
 												-->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<!--
@@ -360,9 +346,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top">
@@ -407,9 +393,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top">
@@ -450,9 +436,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top">
@@ -500,9 +486,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
+														<td valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -551,9 +537,9 @@ Sizes: [
 										<tr style="padding-top:0;">
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td style="padding-top:0;" align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td style="padding-top:0;" align="center" valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table border="0" cellpadding="0" cellspacing="0" width="50%" class="emailButton" style="background-color: #3498DB;">
@@ -586,9 +572,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top">
@@ -633,9 +619,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
+														<td valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -685,15 +671,15 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																<tr>
 																	<td valign="top" class="imageContent">
-																		<img src="http://www.charlesmudy.com/respmail/respmail-full.jpg" width="600" class="flexibleImage" style="max-width:600px;width:100%;display:block;" alt="Text" title="Text" />
+																		<img src="http://www.charlesmudy.com/respmail/respmail-full.jpg" width="700" class="flexibleImage" style="max-width:700px;width:100%;display:block;" alt="Text" title="Text" />
 																	</td>
 																</tr>
 															</table>
@@ -719,9 +705,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top">
@@ -761,9 +747,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table class="flexibleContainerCellDivider" border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
@@ -800,9 +786,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
+														<td valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -854,9 +840,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table class="flexibleContainerCellDivider" border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
@@ -895,7 +881,7 @@ Sizes: [
 												<!-- FLEXIBLE CONTAINER // -->
 												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
+														<td valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -947,9 +933,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table class="flexibleContainerCellDivider" border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
@@ -986,9 +972,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
+														<td valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -1037,9 +1023,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table class="flexibleContainerCellDivider" border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
@@ -1076,9 +1062,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
+														<td valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -1127,9 +1113,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table class="flexibleContainerCellDivider" border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
@@ -1166,9 +1152,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
+														<td valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -1217,9 +1203,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table class="flexibleContainerCellDivider" border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
@@ -1256,9 +1242,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td style="padding-bottom:0;" valign="top" width="600" class="flexibleContainerCell">
+														<td style="padding-bottom:0;" valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -1307,9 +1293,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="30" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td style="padding-top:0;" align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td style="padding-top:0;" align="center" valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
@@ -1342,9 +1328,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
+														<td valign="top" width="700" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
 															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -1394,9 +1380,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top">
@@ -1435,7 +1421,7 @@ Sizes: [
 							Its width can be set to 100% for a color band
 							that spans the width of the page.
 						-->
-						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="600" id="emailFooter">
+						<table bgcolor="#E1E1E1" border="0" cellpadding="0" cellspacing="0" width="700" id="emailFooter">
 
 							<!-- FOOTER ROW // -->
 							<!--
@@ -1450,9 +1436,9 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="700" class="flexibleContainer">
 													<tr>
-														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+														<td align="center" valign="top" width="700" class="flexibleContainerCell">
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td valign="top" bgcolor="#E1E1E1">
