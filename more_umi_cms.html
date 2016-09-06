@@ -5,29 +5,7 @@
         <meta name="viewport" content="width=device-width"/>
         <title>Еще одно письмо</title>
 
-        <!--
-            This email is an experimental proof-of-concept based on the
-            idea that the most common design patterns seen in email can
-            be placed in modular blocks and moved around to create
-            different designs.
-
-            The same principle is used to build the email templates in
-            MailChimp's Drag-and-Drop email editor.
-
-            This email is optimized for mobile email clients, and even
-            works relatively well in the Android Gmail App, which does
-            not support Media Queries, but does have limited mobile-
-            friendly functionality.
-
-            While this coding method is very flexible, it can be more
-            brittle than traditionally-coded emails, particularly in
-            Microsoft Outlook 2007-2010. Outlook-specific conditional
-            CSS is included to counteract the inconsistencies that
-            crop up.
-            
-            For more information on HTML email design and development,
-            visit http://templates.mailchimp.com
-        -->
+        
 
         <style type="text/css">
             /*////// RESET STYLES //////*/
@@ -142,36 +120,27 @@
                     <td align="center" valign="top" id="bodyCell">
                         <!-- EMAIL CONTAINER // -->
                         <!--
-                            The table "emailBody" is the email's container.
-                            Its width can be set to 100% for a color band
-                            that spans the width of the page.
+                         
                         -->
                         <table border="0" cellpadding="0" cellspacing="0" width="700" id="emailBody" bgcolor="#ffffff" style="background-color: #ffffff;">
 
 
                             <!-- MODULE ROW // -->
                             <!--
-                                To move or duplicate any of the design patterns
-                                in this email, simply move or copy the entire
-                                MODULE ROW section for each content block.
+                              
                             -->
                             <tr>
                                 <td align="center" valign="top">
                                     <!-- CENTERING TABLE // -->
                                     <!--
-                                        The centering table keeps the content
-                                        tables centered in the emailBody table,
-                                        in case its width is set to 100%.
+                                       
                                     -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                         <tr>
                                             <td align="center" valign="top">
                                                 <!-- FLEXIBLE CONTAINER // -->
                                                 <!--
-                                                    The flexible container has a set width
-                                                    that gets overridden by the media query.
-                                                    Most content tables within can then be
-                                                    given 100% widths.
+                                                    
                                                 -->
                                                 
                                                 <!-- // FLEXIBLE CONTAINER -->
@@ -198,9 +167,7 @@
 
                                                             <!-- CONTENT TABLE // -->
                                                             <!--
-                                                                In multi-column content blocks, the
-                                                                content tables are given set widths
-                                                                and the flexibleContainer class.
+                                                                
                                                             -->
                                                             <table align="Left" border="0" cellpadding="15" cellspacing="0" width="200" class="flexibleContainer">
                                                                 <tr>
